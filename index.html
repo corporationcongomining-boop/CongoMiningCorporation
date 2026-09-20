@@ -4,23 +4,168 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Congo Mining Corporation</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f1e8;
+      color: #222;
+    }
+
+    header {
+      background: #173d2b;
+      color: white;
+      text-align: center;
+      padding: 45px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 34px;
+    }
+
+    header p {
+      font-size: 18px;
+      margin-top: 12px;
+    }
+
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+
+    section {
+      background: white;
+      margin-bottom: 25px;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    h2 {
+      color: #173d2b;
+    }
+
+    .mineraux {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+
+    .mineral {
+      padding: 18px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    .whatsapp {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 14px 22px;
+      background: #168a45;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #173d2b;
+      color: white;
+    }
+  </style>
 </head>
 
 <body>
 
-  <header>
-    <h1>Congo Mining Corporation</h1>
-    <p>Vente et présentation de minéraux</p>
-  </header>
+<header>
+  <h1>Congo Mining Corporation</h1>
+  <p>Vente et présentation de minéraux</p>
+  <p>Minéraux et pierres du Congo-Brazzaville</p>
+</header>
 
-  <main>
+<main>
+
+  <section>
+    <h2>À propos de nous</h2>
+    <p>
+      Congo Mining Corporation présente et commercialise des minéraux
+      et pierres provenant du Congo-Brazzaville.
+    </p>
+    <p>
+      Nous sommes disponibles pour les demandes d'information,
+      de présentation et d'achat de nos produits.
+    </p>
+  </section>
+
+  <section>
     <h2>Nos minéraux</h2>
-    <p>Découvrez nos minéraux et pierres provenant du Congo.</p>
 
+    <div class="mineraux">
+
+      <div class="mineral">
+        <h3>Cuivre</h3>
+        <p>Minéraux contenant du cuivre et échantillons destinés aux acheteurs et collectionneurs.</p>
+      </div>
+
+      <div class="mineral">
+        <h3>Malachite</h3>
+        <p>Pierres et échantillons de malachite provenant du Congo.</p>
+      </div>
+
+      <div class="mineral">
+        <h3>Azurite</h3>
+        <p>Échantillons minéraux d'azurite pour collection et présentation.</p>
+      </div>
+
+      <div class="mineral">
+        <h3>Or</h3>
+        <p>Présentation d'informations et d'échantillons selon disponibilité.</p>
+      </div>
+
+      <div class="mineral">
+        <h3>Tourmaline</h3>
+        <p>Pierres et échantillons de tourmaline selon disponibilité.</p>
+      </div>
+
+      <div class="mineral">
+        <h3>Pierres de collection</h3>
+        <p>Différents minéraux et pierres destinés aux collectionneurs et acheteurs.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <h2>Nos services</h2>
+    <p>• Présentation de minéraux</p>
+    <p>• Vente de minéraux et pierres</p>
+    <p>• Mise en relation avec des acheteurs intéressés</p>
+    <p>• Informations sur les échantillons disponibles</p>
+  </section>
+
+  <section class="contact">
     <h2>Contact</h2>
     <p>Pour toute demande d'information ou d'achat, contactez-nous.</p>
-  </main>
+
+    <a class="whatsapp" href="https://wa.me/242069449035">
+      Nous contacter sur WhatsApp
+    </a>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2026 Congo Mining Corporation</p>
+  <p>Congo-Brazzaville</p>
+</footer>
 
 </body>
 </html>
